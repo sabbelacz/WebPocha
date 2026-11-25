@@ -1,0 +1,178 @@
+header, footer, .contenedor {
+    font-family: "Broadway", times new roman, sans-serif;
+    display: flex;    
+}
+
+
+/* menu */
+
+.menu { 
+    display: flex; 
+    width: 100%; 
+}
+
+#botonCabecera1, #botonCabecera2, #botonCabecera3, #botonCabecera4, #botonCabecera5 { 
+    display: flex; 
+    flex: 1; 
+    align-items: center; 
+    justify-content: center;
+    color: #ffffff;  
+    padding: 20px; 
+    font-size: 2em; 
+}
+
+/* Colores de la navegación */
+
+.botonblanco { 
+    background: #29337a; 
+    font-size: 3em;
+}
+.botonverde { 
+    background: #71b62b; 
+}
+.botonrojo { 
+    background: #e5231e; 
+}
+.botongris {
+    background: #d0d0ce; 
+}
+.botonverdeoscuro { 
+    background: #06642e; 
+}
+
+/* Barra de letras */
+
+.letras {
+    background: #71b62b; 
+    color: #ffffff; 
+    padding: 20px; 
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+/* columna izquierdaaaaaaaaaaaaa*/
+
+.titulosizquierda { 
+    color: #71b62b; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    font-size: 2em;
+}
+
+.columnaizquierda { 
+    background: #29337a; 
+    width: 20%; 
+    padding: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.flecha {
+    width: 100%; 
+    min-height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 10px;
+}
+
+
+.imagenesizquierda img { 
+    gap: 5px; 
+    width: 100%; 
+    height: 300px; 
+}
+
+ button {
+    background: #71b62b; 
+    border: 4px solid #ff9900; 
+    width: 100%; 
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* columna centraaaaaaaaaaaaal*/
+
+.columnacentral { 
+    background: #da4893; 
+    width: 60%; 
+}
+
+.titulocentral { 
+    background: #da4893; 
+    color: #fff; 
+    text-align: center; 
+    padding: 5px; 
+}
+
+.titulocentral h1 { 
+    margin: 10px; 
+}
+
+.imagenescentral {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px; 
+    flex: 1; 
+}
+
+/* columna derecchaaaaaaaaaaaaaa*/
+
+.columnaderecha { 
+    background: #8ac271; 
+    width: 20%; 
+    padding: 10px; 
+}
+
+.columnaderecha h3 { 
+    text-align: center; 
+}
+.columnaderecha h3 a { 
+    color: #c871ab; 
+}
+
+/* imagenes */
+
+.imagenes {
+    width: 100%;
+    height: 100%;
+    display: block; 
+}
+
+/* Footeeeeeeeeeeeeeeeeeer */
+
+footer {
+    background: #e5231e; 
+    display: grid;
+    color: #71b62b; 
+    grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    padding: 20px; 
+    gap: 20px; 
+}
+
+#botonestafa {
+    color: #fff;
+    font-size: 2em; 
+}
+
+}
+.footerIzquierdo, .footerDerecho { 
+    text-align: center;
+    font-size: 2em; 
+     }
+
+.footerIzquierdo h2 { 
+    color: #fff; 
+}
+
+input { 
+    border-radius: 15px;  
+    padding: 5px; 
+    text-align: center; 
+    margin: 5px;
+    font-size: 2em; 
+}

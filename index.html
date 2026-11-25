@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="javaScript/java.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagenes/favicon/favicon.jpg">
+</head>
+<body>
+
+    <header>
+        <nav class="menu">
+            <!-- los tres primeros botones se cambian por tipografias y colores diferentes osea el estilo -->
+            <a id="botonCabecera1" class="botonblanco" href="#" onclick="cambiarMenu1()" >ShuperJujethes.com</a>
+            <a id="botonCabecera2" class="botonverde" href="#" onclick="cambiarMenu2()" >A-Z</a>
+            <a id="botonCabecera3" class="botonrojo" href="#" onclick="cambiarMenu3()" >BuscaR</a>
+            <a id="botonCabecera4" class="botongris" href="#" onclick="cambiarMenu4()" >LOTES</a>
+            <a id="botonCabecera5" class="botonverdeoscuro" href="#" onclick="cambiarMenu()" >Sorteos</a>
+        </nav>
+    </header>
+
+    <div class="letras"><a href="#">A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - NO ME CABIAN MÁS</a></div>
+
+    <div class="contenedor">
+        
+        <div class="columnaizquierda">
+
+            <h2>
+                <a>JUJETHES RECOMENDADOS</a>
+            </h2>
+            
+            <div class="flecha">
+                <img src="imagenes/gif/superfecha.gif" class="imagenes">
+            </div> 
+            
+            <div class="imagenesizquierda">
+                
+                <img src="imagenes/terribles/juguetes_10.jpg" class="imagenes">
+                <button><a onclick="alertaCompra()" href="#">C0mprAr</a></button>
+                
+                <img id="cambiarJuguete" src="imagenes/terribles/juguetes_11.jpg" class="imagenes">
+                <button onclick="cambiarFoto()"><a href="#">C0mprAr</a></button>
+                <!-- aqui he puesto lo de cambiar una imagen por otra, cuando la clikas se me sube otra vez la web no se porque pero bueno, el cambio de foto funciona -->
+                
+                <img src="imagenes/terribles/juguetes_12.jpg" class="imagenes">
+                <button><a onclick="alertaCompra()" href="#">C0mprAr</a></button>
+
+            </div>
+
+        </div>
+
+        <main class="columnacentral">
+
+            <div class="titulocentral">
+                <h1><a href="#">ShuperJujethes.com</a></h1>
+            </div>
+
+            <div class="imagenescentral">
+                <img src="imagenes/terribles/juguetes_1.jpg" class="imagenes">
+                <img src="imagenes/terribles/juguetes_2.jpg" class="imagenes">
+                <img src="imagenes/terribles/juguetes_3.jpg" class="imagenes">
+                <img src="imagenes/terribles/juguetes_4.jpg" class="imagenes">
+                <img src="imagenes/terribles/juguetes_5.jpg" class="imagenes">
+                <img src="imagenes/terribles/juguetes_6.jpg" class="imagenes">
+                <img src="imagenes/terribles/juguetes_7.jpg" class="imagenes">
+                <img src="imagenes/terribles/juguetes_8.jpg" class="imagenes">
+                <img src="imagenes/terribles/juguetes_9.jpg" class="imagenes">
+            </div>
+        </main>
+
+        <div class="columnaderecha">
+            
+            <div class="imagenesderecha">
+                <h3><a href="#">TRAGAPERRAS</a></h3>
+                <img src="imagenes/laRule/tragaperras.gif" class="imagenes ">
+                <button onclick="document.write('no deberias de haber tocado este boton')">Jugar a las tragaperras</button>
+                <!-- este es el boton que borraria la pagian web -->
+            </div>
+
+            <div class="imagenesderecha">
+                <h3><a href="#">BINGO</a></h3>
+                <img src="imagenes/laRule/bingo.gif" class="imagenes ">
+                <button onclick="document.write('no deberias de haber tocado este boton')">Jugar al bingo</button>
+                <!-- este es el boton que borraria la pagian web -->
+            </div>
+
+            <div class="imagenesderecha">
+                <h3><a href="#">RULETA</a></h3>
+                <img src="imagenes/laRule/ruleta.gif" class="imagenes ">
+            </div>
+
+            <button onclick="window.print()">Imprime esta pagina</button> 
+            <!-- si se clika este boton se imprimria la web -->
+
+            
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footerIzquierdo">
+            <h2>SORTEO</h2>
+            <img src="imagenes/terribles/nintendo.jpg" class="imagenes">
+        </div>
+
+        <div class="footerDerecho">
+            
+            <p id="cambiarTexto">Mete tus datos y entraras en un sorteo para ganar una nintengo suich</p>
+            
+            <input type="email" name="email" placeholder="correo electronico">
+            <input type="telefono"  name="telefono" placeholder="Telefono">
+
+            <p id="botonestafa">Dale a enviar para entra en el sorteo</p>
+            
+            <button onclick="estafarCliente()">Enviar</button>
+            <!-- este boton hace que aparezca el texto de que te han estafado -->
+
+        </div>
+    </footer> 
+
+</body>
+</html>
